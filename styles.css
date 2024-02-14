@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    margin: 0;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-image: radial-gradient(#c8d3d6 50%,#6d6975);
+}
+
+#hero{
+    background-image: url("images/boisemtn.jpg");
+    background-size:cover;
+    background-position: center;
+    padding: 50px 0;
+    font-family: EarlyLunar;
+    color:rgb(8, 7, 7);
+    text-shadow: 0 0 10px #fffdfd;
+    font-style: italic;
+    font-size:x-large;
+    
+}
+
+.ttp{
+    padding: 1px;
+    display:flex;
+    justify-content: space-around; 
+    font-style:bold;
+    font-size:large;
+}
+
+
+.ttp img{
+    width:100%;
+    border-radius: 35px;
+    
+}
+
+#header{
+    font-size:50px;
+    font-family:Rosarivo;
+    text-decoration: underline;
+    line-height: -10px;
+}
+
+.img{
+    width: 300px;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #dee2e6;
+    border-radius:35px;
+   
+}
+
+@font-face {
+    font-family: EarlyLunar;
+    src: url(EarlyLunar-SemiBold.otf);
+}
+@font-face{
+    font-family: Rosarivo;
+    src: url(Rosarivo-Italic.ttf);
+}
+
+.three-img {
+    display:flex;
+    justify-content: space-around;
+}
+
+.img-head{
+    font-size:30px;
+    font-family:Rosarivo;
+    text-decoration: underline;
+}
+
+.photo img{
+    margin: 40px 40px;
+    width:250px;
+    border-radius:500px;
+}
+.foot-title{
+    font-family:EarlyLunar;
+    font-size: 24px;
+}
+
+.foot-des{
+    font-family: Rosarivo;
+}
